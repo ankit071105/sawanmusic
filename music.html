@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music app</title>
+    <title>Spotify |Home page</title>
     <!-- css -->
+  
     <link rel="stylesheet" href="music.css">
     <!-- goggle font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 <!-- logo -->
-   <link rel="shortcut icon" href="logo.jpeg" type="image/x-icon">
+   <link rel="shortcut icon" href="logo.png" type="image/x-icon">
     <!-- fontawesome -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -29,7 +30,9 @@
     <header>
    
        <div class="menu-side"> 
-          <h1>Playlist</h1>
+        
+          <h1>   <img src="logo.png" alt="" width="100px" height="80px">Playlist</h1>
+          <br>
         <div class="playlist">
           <h4 class="active"><span></span><i class="fa fa-solid fa-music"></i>Playlist</h4>
            <h4 ><span></span><i class="fa fa-solid fa-music"></i>Last Listening</h4>
@@ -37,27 +40,27 @@
           </div>
           <div class="menu-song">
            <li class="songItem"><span>1</span>
-          <img src="img1.jpeg" alt="">
+          <img src="1.jpeg" alt="">
           <h5> Tere Vaaste <br><div class="subtitle">Varun Jain</div></h5>
           <i class="play fa-solid fa-circle-play" id="play13"></i>
         </li>
         
         <li class="songItem"><span>2</span>
-          <img src="img2.jpeg" alt=""><h5>Zihaal E Miskin<br><div class="subtitle">
+          <img src="2.jpeg" alt=""><h5>Zihaal E Miskin<br><div class="subtitle">
            Arijit Singh
           </div> </h5>
           <i class="play fa-solid fa-circle-play" id="play14"></i>
         </li>
 
         <li class="songItem"><span>3</span>
-          <img src="img3.jpeg" alt=""><h5>Kahani Suno<br><div class="subtitle">
+          <img src="3.jpeg" alt=""><h5>Kahani Suno<br><div class="subtitle">
           Kaifi Khalil
           </div> </h5>
           <i class="play fa-solid fa-circle-play" id="play15"></i>
         </li>
 
         <li class="songItem"> <span>4</span>
-          <img src="img4.jpeg" alt=""><h5>Daku<br><div class="subtitle">
+          <img src="4.jpeg" alt=""><h5>Daku<br><div class="subtitle">
             Chani Nattan
           </div> </h5>
           <i class="play fa-solid fa-circle-play" id="play16"></i>
@@ -73,7 +76,7 @@
 
 
         <li class="songItem"><span>6</span>
-          <img src="img6.jpeg" alt=""><h5>Haar Haar Shambhu<br><div class="subtitle">
+          <img src="6.jpeg" alt=""><h5>Haar Haar Shambhu<br><div class="subtitle">
         shiva
           </div> </h5>
           <i class="play fa-solid fa-circle-play" id="play17"></i>
@@ -159,7 +162,7 @@
   
 
         <li class="songItem"> <span>17</span>
-          <img src="img4.jpeg" alt=""><h5>Daku<br><div class="subtitle">
+          <img src="4.jpeg" alt=""><h5>Daku<br><div class="subtitle">
             Chani Nattan
 
           </div> </h5>
@@ -167,14 +170,14 @@
         </li>
         
         <li class="songItem"><span>18</span>
-          <img src="img9.jpeg" alt=""><h5>Udda Ja Kaale Kavva<br><div class="subtitle">
+          <img src="9.jpeg" alt=""><h5>Udda Ja Kaale Kavva<br><div class="subtitle">
           Udit Naryan
           </div> </h5>
           <i class="play fa-solid fa-circle-play" id="14"></i>
         </li>
 
         <li class="songItem"><span>19</span>
-          <img src="img3.jpeg" alt=""><h5>Kahani Suno<br><div class="subtitle">
+          <img src="3.jpeg" alt=""><h5>Kahani Suno<br><div class="subtitle">
           Kaifi Khalil
           </div> </h5>
           <i class="play fa-solid fa-circle-play" id="15"></i>
@@ -191,9 +194,9 @@
           <br>
           <img src="data:image/jpeg;base64,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" alt=""  width="220px" height="200px" ><p style="cursor: pointer; font-size: 15px; font-family: Arial, Helvetica, sans-serif;" id="justin">Baby</p>
           <br>
-          <img src="img1.jpeg"  width="220px" height="200px"><p id="play131" style="cursor: pointer; font-size: 15px; font-family: Arial, Helvetica, sans-serif;" >Tera Vaasate</p>
+          <img src="1.jpeg"  width="220px" height="200px"><p id="play131" style="cursor: pointer; font-size: 15px; font-family: Arial, Helvetica, sans-serif;" >Tera Vaasate</p>
           <br>
-          <img src="img5.jpeg"  width="220px" height="200px" i><p  style="cursor: pointer; font-size: 15px; font-family: Arial, Helvetica, sans-serif;" id="play31">System pe System</p>
+          <img src="5.jpeg"  width="220px" height="200px" i><p  style="cursor: pointer; font-size: 15px; font-family: Arial, Helvetica, sans-serif;" id="play31">System pe System</p>
         </div>
       
          
@@ -205,7 +208,7 @@
         <div class="navbar" id="home">
       <ul>
         <li>Discover <span></span> </li>
-        <li>MY LIBRARY</li>
+       <a href="http://127.0.0.1:5500/index.html"> <li>MY LIBRARY</li></a> 
         <li>RADIO</li>
         </ul>
           <div class="nav-search  ">
@@ -288,22 +291,22 @@
 <section class="sec-2">
   <div class="slide-sec">
   
-    <a href=" " class="product-image">  <h2> Trending Songs</h2>
+    <a href="" class="product-image">  <h2> Trending Songs</h2>
     </a>
    
   <ul class="product-slide" itemid="product_slide">
         
-    <li class="product-image songItem" ><img src="img8.jpeg" alt=" " width="200px" height="200px" ><span id="play89">Phir Aur Ky Chahiye</span></li>
+    <li class="product-image songItem" ><img src="8.jpeg" alt=" " width="200px" height="200px" ><span id="play89">Phir Aur Ky Chahiye</span></li>
 
     <li class="product-image songItem" ><img src="img16.jpeg" alt=" " width="200px" height="200px" id="16"><span id="play1">Raja ji</span></li>
     
     <li class="product-image songItem" ><img src="img17.jpeg" alt=" " width="200px" height="200px" id="17"><span id="play2"> Chubur Chubur 2</span></li>
 
-    <li class="product-image songItem" ><img src="img5.jpeg" alt=" " width="200px" height="200px" id="12"><span id="play33">System pe System</span></li>
+    <li class="product-image songItem" ><img src="5.jpeg" alt=" " width="200px" height="200px" id="12"><span id="play33">System pe System</span></li>
 
-    <li class="product-image songItem" ><img src="img9.jpeg" alt=" " width="200px" height="200px" id="9"><span id="play4" >Udd Jaa kaale Kaava</span></li>
+    <li class="product-image songItem" ><img src="9.jpeg" alt=" " width="200px" height="200px" id="9"><span id="play4" >Udd Jaa kaale Kaava</span></li>
 
-    <li class="product-image songItem" ><img src="img10.jpeg" alt=" " width="200px" height="200px" id="10"><span id="play5">Le Aaunga</span></li>
+    <li class="product-image songItem" ><img src="10.jpeg" alt=" " width="200px" height="200px" id="10"><span id="play5">Le Aaunga</span></li>
    
   </ul>
   </div>
@@ -325,7 +328,7 @@
       <ul class="product-slide ">
         <li class="product-image songItem"><img src="img13.jpeg" alt=" " width="200px" height="200px" id="13"> <span id="play6">Le Le Ram</span></li>
     
-        <li class="product-image songItem" ><img src="img7.jpeg" alt=" " width="200px" height="200px" id="7"><span id="play77">Company</span></li>
+        <li class="product-image songItem" ><img src="7.jpeg" alt=" " width="200px" height="200px" id="7"><span id="play77">Company</span></li>
         
         <li class="product-image songItem"><img src="img15.jpeg" alt=" " width="200px" height="200px" id="15"><span id="play8">Ranjha</span></li>
   
@@ -398,15 +401,15 @@
                           
                           <li class="productimage songItem" ><img src="img20.jpeg" alt=" " width="100px" height="150px" id="14"> <br><span>Amplifier</span></li>
                       
-                          <li class="productimage songItem" ><img src="img5.jpeg" alt=" " width="100px" height="150px" id="5">
+                          <li class="productimage songItem" ><img src="5.jpeg" alt=" " width="100px" height="150px" id="5">
                             <br>
                             <span>  System pe System</span></li>
                       
-                          <li class="productimage songItem" ><img src="img9.jpeg" alt=" " width="100px" height="150px" id="9">
+                          <li class="productimage songItem" ><img src="9.jpeg" alt=" " width="100px" height="150px" id="9">
                             <br>
                             <span>  Udd Jaa kaale Kaava</span></li>
                       
-                          <li class="productimage songItem" ><img src="img10.jpeg" alt=" " width="100px" height="150px" id="10">
+                          <li class="productimage songItem" ><img src="10.jpeg" alt=" " width="100px" height="150px" id="10">
                             <br>
                             <span>  Le Aaunga</span></li>
 
@@ -414,26 +417,26 @@
                               <br>
                               <span>Chubur Chubur 2</span></li>
 
-                              <li class="productimage songItem" ><img src="img1.jpeg" alt=" " width="100px" height="150px" id="1">
+                              <li class="productimage songItem" ><img src="1.jpeg" alt=" " width="100px" height="150px" id="1">
                                 <br>
                                 <span>Tera Vaasate</span></li>
 
                                 <li class="productimage songItem" ><img src="img20.jpeg" alt=" " width="100px" height="150px" id="19">
                                   <br>
                                   <span>Bewafa</span></li>
-                                  <li class="productimage songItem" ><img src="img3.jpeg" alt=" " width="100px" height="150px" id="3">
+                                  <li class="productimage songItem" ><img src="3.jpeg" alt=" " width="100px" height="150px" id="3">
                                     <br>
                                     <span>Kahani Suno</span></li>
 
                                     <li class="productimage songItem" ><img src="img18.jpeg" alt=" " width="100px" height="150px" id="18">
                                       <br>
                                       <span>Sardi Se Tardi</span></li>  
-                                      <li class="productimage songItem" ><img src="img6.jpeg" alt=" " width="100px" height="150px" id="6">
+                                      <li class="productimage songItem" ><img src="img18.jpeg" alt=" " width="100px" height="150px" id="6">
                                         <br>
-                                        <span>Har Har Shambhu</span></li>    <li class="productimage songItem" ><img src="img7.jpeg" alt=" " width="100px" height="150px" id="7">
+                                        <span>Har Har Shambhu</span></li>    <li class="productimage songItem" ><img src="7.jpeg" alt=" " width="100px" height="150px" id="7">
                                           <br>
                                           <span> Company </span></li>    
-                                          <li class="productimage songItem" ><img src="img2.jpeg" alt=" " width="100px" height="150px">
+                                          <li class="productimage songItem" ><img src="2.jpeg" alt=" " width="100px" height="150px">
                                             <br>
                                             <span id="play69">Zihaal Maskin </span></li>
                          
@@ -493,4 +496,5 @@
 
     </body>
     <script src="music.js"></script>
+  
 </html>
