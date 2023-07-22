@@ -1140,3 +1140,21 @@ main #lo h3{
             }
             
           }
+          @media only screen and (max-width: 1100px) {
+            .myy {
+       
+            width: 800px;
+            height:auto;
+            }
+            .myy img {
+              
+          
+              width: 160px;
+              height:auto;
+              padding: 10px;
+              }
+
+          }
+        
+            
+          

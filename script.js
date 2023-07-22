@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Tera Vasste", filePath: "songs/1.mp3", coverPath: "covers/1.jpeg"},
-    {songName: "Zihaal E Maskin", filePath: "songs/2.mp3", coverPath: "covers/2.jpeg"},
-    {songName: "Kahani Suno", filePath: "songs/3.mp3", coverPath: "covers/3.jpeg"},
-    {songName: "Baby", filePath: "songs/4.mp3", coverPath: "covers/32.jpeg"},
-    {songName: "System Pe System", filePath: "songs/5.mp3", coverPath: "covers/5.jpeg"},
-    {songName: "Har Har Shambhu Shiva Mahadeva", filePath: "songs/2.mp3", coverPath: "covers/6.jpeg"},
-    {songName: "Company", filePath: "songs/2.mp3", coverPath: "covers/7.jpeg"},
-    {songName: "Phir Aur Ky Chahiye", filePath: "songs/2.mp3", coverPath: "covers/8.jpeg"},
-    {songName: "Uda Jaa Kaale Kaava", filePath: "songs/2.mp3", coverPath: "covers/9.jpeg"},
-    {songName: "Le Aaunga", filePath: "songs/4.mp3", coverPath: "covers/10.jpeg"},
+    {songName: "Tera Vasste", filePath: "songs/1.mp3", coverPath: "1.jpeg"},
+    {songName: "Zihaal E Maskin", filePath: "songs/2.mp3", coverPath: "2.jpeg"},
+    {songName: "Kahani Suno", filePath: "songs/3.mp3", coverPath: "3.jpeg"},
+    {songName: "Baby", filePath: "4.mp3", coverPath: "32.jpeg"},
+    {songName: "System Pe System", filePath: "5.mp3", coverPath: "5.jpeg"},
+    {songName: "Har Har Shambhu Shiva Mahadeva", filePath: "6.mp3", coverPath: "6.jpeg"},
+    {songName: "Company", filePath: "2.mp3", coverPath: "7.jpeg"},
+    {songName: "Phir Aur Ky Chahiye", filePath: "8.mp3", coverPath: "8.jpeg"},
+    {songName: "Uda Jaa Kaale Kaava", filePath: "9.mp3", coverPath: "9.jpeg"},
+    {songName: "Le Aaunga", filePath: "10.mp3", coverPath: "10.jpeg"},
 ]
 
 songItems.forEach((element, i)=>{ 
